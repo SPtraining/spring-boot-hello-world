@@ -9,4 +9,4 @@ Resources:
       AvailabilityZone: "us-east-2b"
       Tags:
         - Key: "Name"
-          Value: "CloudFec2"
+          Value: "JenkinsCF"
