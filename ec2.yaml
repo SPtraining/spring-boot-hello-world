@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  MyEC2Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      InstanceType: "t2.micro"
+      ImageId: "ami-019f9b3318b7155c5" # Replace with your desired AMI ID
+      KeyName: "linuxt2medium"
+      AvailabilityZone: "us-east-2b"
+      Tags:
+        - Key: "Name"
+          Value: "CloudFec2"
